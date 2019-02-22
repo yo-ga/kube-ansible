@@ -5,6 +5,7 @@ services:
   - docker
 python:
   - "2.7"
+  - "3.6"
 before_install:
   - pip install -U ansible ansible-lint
 script:
